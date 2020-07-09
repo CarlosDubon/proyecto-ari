@@ -11,7 +11,7 @@ function App() {
     const [file, setFile] = React.useState()
     const [dataset, setDataset] = React.useState(null)
     const [delimitador, setDelimitador] = React.useState(',')
-    const [clave, setClave] = React.useState("simon")
+    const [clave, setClave] = React.useState("")
     const [ok, setOk] = React.useState(false)
 
     const [csv,setCsv] = React.useState("")
